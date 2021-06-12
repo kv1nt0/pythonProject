@@ -6,4 +6,4 @@ while result_km < b:
     a = a * 0.1 + a
     day += 1
     result_km = result_km + a
-print(f'{day}')
+print(f'Достигните цели на: {day} день')
