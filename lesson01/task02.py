@@ -2,4 +2,4 @@ numbers = int(input('Введите число которое хотите пе�
 hours = numbers // 3600
 minutes = (numbers - hours * 3600) // 60
 seconds = numbers - (hours * 3600 + minutes * 60)
-print(f'Время в формате чч:мм:сс {hours} : {minutes} : {seconds}')
+print(f'Время в формате чч:мм:сс {hours:02} : {minutes:02} : {seconds:02}')
